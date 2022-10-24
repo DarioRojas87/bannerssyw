@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("https://kevel.syw.com/kevel/GothamMedium.ttf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "Gotham";
+    font-weight: bold;
+    src: url("https://kevel.syw.com/kevel/Gotham-Bold.otf") format("opentype");
+  }
+  
+  :root {
+    --primary-color: #ffffff;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .master-card-banner {
+    background-image: url(./img/SYWMC-PYW_EDO_Raise-Mobile_340@2x.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-align: left;
+    padding: 16px 24px;
+    border-radius: 4px;
+    width: 340px;
+    height: 258px;
+    box-sizing: border-box;
+  }
+  
+  .master-card-banner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 190px;
+    height: 183px;
+  }
+  
+  .master-card-banner__title {
+    color: #02aeef;
+    font-family: "Gotham", sans-serif;
+    text-align: center;
+    width: 160px;
+    height: 48px;
+    font-weight: 425;
+    font-size: 32px;
+    word-spacing: -5px;
+    line-height: 48px;
+    margin: 0;
+  }
+  
+  .master-card-banner__subtitle {
+    width: 190px;
+    height: 80px;
+    font-family: "Gotham", sans-serif;
+    font-style: normal;
+    font-weight:350;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--primary-color);
+    margin: 0px;
+  }
+  
+  .master-card-banner__subtitle sup {
+    vertical-align:4.5px;
+    font-size: xx-small;
+  }
+  
+  .master-card-banner__card-container {
+    width: 80px;
+    height: 80px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .master-card-banner__card-container img {
+      width: 60.74px;
+      height: 38.52px;
+  }
+  
+  .master-card-banner__action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 139px;
+    height: 47px;
+  }
+  
+  .master-card-banner__action-title {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 0px;
+    width: 95px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .master-card-banner__action-text {
+    font-family: "Gotham", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    width: 69px;
+    height: 13px;
+    font-size: 12px;
+    line-height: 13px;
+    color: var(--primary-color);
+    margin: 0px;
+  }
+  
+  .master-card-banner__action-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .master-card-banner__action-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 139px;
+    height: 23px;
+  }
+  
+  .master-card-banner__action-subtitle p {
+    font-family: "Gotham", sans-serif;
+    font-weight:normal;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    width: 158px;
+    color: var(--primary-color);
+    margin: 2.5px 0 0 0;
+  }
+  
+  span {
+      text-decoration: underline;
+      text-decoration-color: #ffffff8e;
+      color: var(--primary-color);
+      cursor: pointer;
+  }
+  
