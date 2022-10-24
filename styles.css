@@ -1,0 +1,231 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("https://kevel.syw.com/kevel/GothamMedium.ttf")
+      format("opentype");
+  }
+
+  @font-face {
+    font-family: "Gotham";
+    font-weight: bold;
+    src: url("https://kevel.syw.com/kevel/Gotham-Bold.otf")
+      format("opentype");
+  }
+
+  :root {
+    --primary-color: #0066cc;
+    --grey-background: #f5f7fa;
+    --grey-title-color: #262c2f;
+    --dark-grey-color: #5d686d;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* MASTER CARD BANNER */
+
+  .master-card-banner {
+    padding: 16px;
+    text-align: center;
+    text-align: left;
+    background: var(--grey-background);
+    border-radius: 4px;
+  }
+  .master-card-banner--tablet {
+    width: 100%;
+    max-width: 1165px;
+    box-sizing: border-box;
+  }
+
+  .master-card-banner__container {
+    display: flex;
+  }
+  .master-card-banner__container--tablet {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+
+  .master-card-banner__title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: "Gotham", sans-serif;
+    color: var(--grey-title-color);
+  }
+  .master-card-banner__title--tablet {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+
+  .master-card-banner__subtitle {
+    margin: 10px 0;
+    font-family: "Gotham", sans-serif;
+    font-style: normal;
+    font-size: 9.5px;
+    line-height: 12px;
+    text-align: left;
+    align-self: flex-start;
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+  .master-card-banner__subtitle--tablet {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .master-card-banner__checkout {
+    font-family: "Gotham", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 10px;
+    color: var(--dark-grey-color);
+  }
+
+  .master-card-banner__text {
+    margin: 7px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--dark-grey-color);
+    font-family: "Gotham", sans-serif;
+  }
+
+  .master-card-banner__text--primary {
+    color: var(--primary-color);
+  }
+
+  .master-card-banner__text--sm {
+    font-size: 9.5px;
+    margin-bottom: 0;
+  }
+
+  .master-card-banner__img {
+    width: 65px;
+    height: 52px;
+    margin: 6px auto 12px auto;
+    text-align: center;
+  }
+  .master-card-banner__img--tablet {
+    width: 80px;
+    height: 63px;
+    flex: 1;
+  }
+
+  .master-card-banner__icon {
+    width: 8px;
+    display: inline;
+  }
+
+  .master-card-banner-action {
+    text-align: center;
+  }
+  .master-card-banner-action--tablet {
+    margin-left: 8px;
+  }
+
+  .master-card-banner__btn {
+    width: 100%;
+    margin-top: 10px;
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+    padding: 14px 20px;
+    font-family: "Gotham", sans-serif;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .master-card-banner div > img + p {
+    display: inline;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* DIMENSION MODIFIERS */
+
+  .master-card-banner--tablet {
+    width: 100%;
+    max-width: 1165px;
+    box-sizing: border-box;
+  }
+
+  .master-card-banner__container--tablet {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+
+  .master-card-banner__title--tablet {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .master-card-banner__subtitle--tablet {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .master-card-banner__img--tablet {
+    width: 80px;
+    height: 63px;
+    flex: 1;
+  }
+
+  .master-card-banner-action--tablet {
+    margin-left: 8px;
+  }
+
+  .master-card--banner__btn--tablet {
+    width: 179px;
+    font-size: 14px;
+  }

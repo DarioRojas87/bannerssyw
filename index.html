@@ -8,6 +8,58 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <main class="master-card-banner master-card-banner--tablet">
+        <div class="master-card-banner__container--tablet">
+          <img
+            class="master-card-banner__img master-card-banner__img--tablet"
+            src="https://kevel.syw.com/kevel/5321card-angled-2024.png"
+            alt="shop your way card"
+          />
+          <div>
+            <h2
+              class="master-card-banner__title master-card-banner__title--tablet"
+            >
+              Apply for the Shop Your Way Mastercard®, when approved get up to
+              <span class="master-card-banner__text--primary">$225 </span>in
+              statement credits with eligible purchases†.
+            </h2>
+            <p
+              class="master-card-banner__subtitle master-card-banner__subtitle--tablet"
+              onclick="fetch('{{url}}'); window.open('{{urls[2]}}');"
+            >
+              †See details and exclusions
+            </p>
+          </div>
+  
+          <div
+            class="master-card-banner-action master-card-banner-action--tablet"
+          >
+            <img
+              src="https://kevel.syw.com/kevel/iconography-lock.png"
+              alt="lock icon"
+              class="master-card-banner__icon"
+            />
+            <p class="master-card-banner__text">Powered by Shop Your Way</p>
+  
+            <button
+              class="master-card-banner__btn master-card--banner__btn--tablet"
+              onclick="fetch('{{url}}'); window.open('{{urls[1]}}');"
+            >
+              Learn more
+            </button>
+            <p
+              class="master-card-banner__checkout master-card-banner__text--tablet"
+            >
+              Apply in checkout
+            </p>
+          </div>
+        </div>
+      </main>
+      <img
+        src="#"
+        width="0"
+        height="0"
+        onerror="function t(){!window.tracked&&window.innerWidth&&(window.tracked=!0,fetch('{{impressionUrl}}'))}t();"
+      />
 </body>
 </html>
