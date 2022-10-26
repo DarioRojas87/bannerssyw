@@ -57,20 +57,22 @@
     height: 72px;
     font-family: "Gotham", sans-serif;
     font-style: normal;
-    font-weight: 350;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--primary-color);
-    margin: 0px;
+    margin: 8px 0 0 0;
+    position: relative;
   }
    .master-card-banner__content-text span {
     color: #02AEEF;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
    }
   .master-card-banner__content-text sup {
-    vertical-align: 4.5px;
     font-size: xx-small;
+    position: absolute;
+    bottom: 7px;
   }
   
   .master-card-banner__card-container {
@@ -92,7 +94,7 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 12px;
+    gap: 8px;
     width: 273px;
     height: 31px;
   }
@@ -110,12 +112,12 @@
   .master-card-banner__action-text {
     font-family: "Gotham", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     width: 92px;
     font-size: 16px;
     line-height: 19px;
     color: var(--primary-color);
-    margin: 0px;
+    margin: 8px 0 0 0;
   }
   
   .master-card-banner__action-icon {
@@ -134,13 +136,13 @@
   
   .master-card-banner__action-subtitle p {
     font-family: "Gotham", sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 9px;
     line-height: 16px;
     text-align: center;
     width: 158px;
     color: var(--primary-color);
-    margin: 0 0 0 0;
+    margin: 2.5px 0 0 0;
   }
   
   span {
