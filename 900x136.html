@@ -91,7 +91,7 @@
         font-size: 16px;
         line-height: 24px;
         color: var(--primary-color);
-        margin: 8px 0 0 0;
+        margin: 4px 0 0 0;
         position: relative;
       }
 
@@ -127,23 +127,17 @@
       }
 
       .master-card-banner__action-title {
-        display: flex;
-        align-items: center;
-        padding: 0px;
-        gap: 2px;
         width: 118px;
         height: 24px;
         cursor: pointer;
-      }
-
-      .master-card-banner__action-text {
         font-family: "Gotham", sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
         color: var(--primary-color);
-        margin: 8px 0 0 0;
+        margin: 4px 0 0 0;
+        padding: 0px;
       }
 
       .master-card-banner__action-icon {
@@ -178,6 +172,15 @@
         color: var(--primary-color);
         cursor: pointer;
       }
+
+      .master-card-banner__action-subtitle :nth-child(2) {
+        cursor: pointer;
+      }
+
+      .right-icon {
+        text-decoration: none;
+        font-size: 20px;
+      }
     </style>
     <main class="master-card-banner">
       <div class="master-card-banner__content">
@@ -200,19 +203,12 @@
         />
       </div>
       <div class="master-card-banner__action">
-        <div class="master-card-banner__action-title">
-          <p class="master-card-banner__action-text">Learn More</p>
-          <img
-            class="master-card-banner__action-icon"
-            src="./img/icon_right.svg"
-            alt="right arrow icon"
-          />
-        </div>
-        <div class="master-card-banner__action-subtitle">
-          <p>Offer valid 11/1/2022-1/31/2023</p>
-          <p>*** <span>See details and exclusions</span></p>
-        </div>
+        <p class="master-card-banner__action-title">Learn More <span class="right-icon">➔</span></p>
+      <div class="master-card-banner__action-subtitle">
+        <p>Offer valid 11/1/2022-1/31/2023</p>
+        <p>*** <span>See details and exclusions</span></p>
       </div>
+    </div>
     </main>
   </body>
 </html>

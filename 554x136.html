@@ -1,42 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./554x136.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <style>
+      @font-face {
+        font-family: "Gotham";
+        src: url("https://kevel.syw.com/kevel/GothamMedium.ttf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "Gotham";
+        font-weight: bold;
+        src: url("https://kevel.syw.com/kevel/Gotham-Bold.otf")
+          format("opentype");
+      }
+
+      :root {
+        --primary-color: #ffffff;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      .master-card-banner {
+        background-image: url(./img/Way_EDO_554x136@2x.png);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        text-align: left;
+        padding: 16px 24px;
+        border-radius: 4px;
+        width: 554px;
+        height: 136px;
+        box-sizing: border-box;
+      }
+
+      .master-card-banner__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 403px;
+        height: 111px;
+        padding: 0;
+        margin: 0;
+        gap: 8px;
+      }
+      .master-card-banner__content-text {
+        width: 403px;
+        height: 72px;
+        font-family: "Gotham", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--primary-color);
+        margin: 4px 0 0 0;
+        position: relative;
+      }
+      .master-card-banner__content-text span {
+        color: #02aeef;
+        font-weight: 400;
+        text-decoration: none;
+      }
+      .master-card-banner__content-text sup {
+        font-size: xx-small;
+        position: absolute;
+        bottom: 7px;
+      }
+
+      .master-card-banner__card-container {
+        width: 80px;
+        height: 80px;
+        background: var(--primary-color);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .master-card-banner__card-container img {
+        width: 60.74px;
+        height: 38.52px;
+      }
+      .master-card-banner__action {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        width: 290px;
+        height: 31px;
+      }
+
+      .master-card-banner__action-title {
+        width: 118px;
+        height: 24px;
+        cursor: pointer;
+        font-family: "Gotham", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: var(--primary-color);
+        margin: 4px 0 0 0;
+        padding: 0px;
+      }
+
+      .master-card-banner__action-icon {
+        width: 24px;
+        height: 24px;
+      }
+
+      .master-card-banner__action-subtitle {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        padding: 0;
+        width: 160px;
+        height: 29px;
+        margin-bottom: 5px;
+      }
+
+      .master-card-banner__action-subtitle p {
+        font-family: "Gotham", sans-serif;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 16px;
+        text-align: start;
+        width: 158px;
+        color: var(--primary-color);
+        margin: 0;
+      }
+
+      span {
+        text-decoration: underline;
+        text-decoration-color: #ffffff8e;
+        color: var(--primary-color);
+        cursor: pointer;
+      }
+
+      .master-card-banner__action-subtitle :nth-child(2) {
+        cursor: pointer;
+      }
+
+      .right-icon {
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 7px;
+      }
+    </style>
     <main class="master-card-banner">
-        <div class="master-card-banner__content">
+      <div class="master-card-banner__content">
         <p class="master-card-banner__content-text">
           <span>Get $5 off</span> your parking or car wash purchase*** of $20 or
           more made on Way.com using Pay with Shop Your Way and a Shop Your Way
           Mastercard<sup>®</sup>
         </p>
         <div class="master-card-banner__action">
-          <div class="master-card-banner__action-title">
-            <p class="master-card-banner__action-text">Learn More</p>
-            <img
-              class="master-card-banner__action-icon"
-              src="./img/icon_right.svg"
-              alt="right arrow icon"
-            />
-          </div>
+          <p class="master-card-banner__action-title">
+            Learn More<span class="right-icon">➔</span>
+          </p>
           <div class="master-card-banner__action-subtitle">
             <p>Offer valid 11/1/2022-1/31/2023</p>
             <p>*** <span>See details and exclusions</span></p>
           </div>
         </div>
-    </div>
-        <div class="master-card-banner__card-container">
-            <img
-              class="master-card-banner__card-container-img"
-              src="./img/syw_mc_cardArt_left-NoShadow 1.svg"
-              alt="shop your way card"
-            />
-          </div>
-      </main>
-</body>
+      </div>
+      <div class="master-card-banner__card-container">
+        <img
+          class="master-card-banner__card-container-img"
+          src="./img/syw_mc_cardArt_left-NoShadow 1.svg"
+          alt="shop your way card"
+        />
+      </div>
+    </main>
+  </body>
 </html>
